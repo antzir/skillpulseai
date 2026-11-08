@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="id"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;title&gt;SkillPulse AI — Karyawan Digital&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1">&lt;style&gt;</span></p>
+<p class="p1"><span class="s1">:root{--bg:#05070d;--panel:#0b1220;--line:#14324a;--neon:#00f5d4;--neon2:#7b2ff7;--red:#ff4d6d;--text:#d7e3f4;--muted:#7d8ba3;}</span></p>
+<p class="p1"><span class="s1">*{box-sizing:border-box;margin:0;padding:0}</span></p>
+<p class="p1"><span class="s1">body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}</span></p>
+<p class="p1"><span class="s1">body::before{content:"";position:fixed;inset:0;background:repeating-linear-gradient(0deg,rgba(0,245,212,.03) 0 1px,transparent 1px 3px);pointer-events:none}</span></p>
+<p class="p1"><span class="s1">section{padding:72px 20px;max-width:1080px;margin:auto}</span></p>
+<p class="p1"><span class="s1">.badge{display:inline-block;border:1px solid var(--neon);color:var(--neon);padding:6px 14px;border-radius:999px;font-size:.85rem;box-shadow:0 0 12px rgba(0,245,212,.4)}</span></p>
+<p class="p1"><span class="s1">.hero{text-align:center;padding-top:90px}</span></p>
+<p class="p1"><span class="s1">.avatar{width:110px;height:110px;margin:0 auto 22px;border-radius:50%;background:radial-gradient(circle,var(--neon),var(--neon2));display:flex;align-items:center;justify-content:center;font-size:2.6rem;box-shadow:0 0 40px rgba(0,245,212,.45);animation:float 3s ease-in-out infinite}</span></p>
+<p class="p1"><span class="s1">@keyframes float{50%{transform:translateY(-8px)}}</span></p>
+<p class="p1"><span class="s1">h1{font-size:clamp(2.2rem,6vw,3.6rem);margin:18px 0 10px;background:linear-gradient(90deg,var(--neon),var(--neon2));-webkit-background-clip:text;background-clip:text;color:transparent}</span></p>
+<p class="p1"><span class="s1">.tagline{max-width:640px;margin:auto;color:var(--muted);font-size:1.1rem}</span></p>
+<p class="p1"><span class="s1">.btn{display:inline-block;margin-top:26px;padding:14px 30px;background:var(--neon);color:#001015;font-weight:700;border-radius:10px;text-decoration:none;box-shadow:0 0 22px rgba(0,245,212,.5);transition:transform .2s}</span></p>
+<p class="p1"><span class="s1">.btn:hover{transform:translateY(-3px)}</span></p>
+<p class="p1"><span class="s1">h2{font-size:1.8rem;text-align:center;margin-bottom:34px}</span></p>
+<p class="p1"><span class="s1">.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}</span></p>
+<p class="p1"><span class="s1">.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}</span></p>
+<p class="p1"><span class="s1">.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px}</span></p>
+<p class="p1"><span class="s1">.card h3{margin-bottom:12px}</span></p>
+<p class="p1"><span class="s1">.card ul{padding-left:18px;color:var(--muted)}</span></p>
+<p class="p1"><span class="s1">.card li{margin-bottom:8px}</span></p>
+<p class="p1"><span class="s1">.chaos{border-color:var(--red)} .chaos h3{color:var(--red)}</span></p>
+<p class="p1"><span class="s1">.sol{border-color:var(--neon)} .sol h3{color:var(--neon)}</span></p>
+<p class="p1"><span class="s1">.feat{text-align:center;transition:border-color .3s}</span></p>
+<p class="p1"><span class="s1">.feat:hover{border-color:var(--neon)}</span></p>
+<p class="p1"><span class="s1">.feat .ic{font-size:2rem;margin-bottom:10px}</span></p>
+<p class="p1"><span class="s1">.feat p{color:var(--muted);font-size:.95rem}</span></p>
+<p class="p1"><span class="s1">.sim{background:#070b14;border:1px solid var(--line);border-radius:16px;overflow:hidden}</span></p>
+<p class="p1"><span class="s1">.sim-head{padding:12px 18px;border-bottom:1px solid var(--line);color:var(--neon);font-family:monospace;font-size:.9rem}</span></p>
+<p class="p1"><span class="s1">.chat{height:340px;overflow-y:auto;padding:18px;display:flex;flex-direction:column;gap:12px}</span></p>
+<p class="p1"><span class="s1">.msg{max-width:80%;padding:10px 14px;border-radius:12px;font-size:.95rem;animation:pop .3s ease}</span></p>
+<p class="p1"><span class="s1">@keyframes pop{from{opacity:0;transform:translateY(6px)}}</span></p>
+<p class="p1"><span class="s1">.user{align-self:flex-end;background:#1b2a4a;border:1px solid var(--neon2)}</span></p>
+<p class="p1"><span class="s1">.bot{align-self:flex-start;background:#0d1d2e;border:1px solid var(--neon)}</span></p>
+<p class="p1"><span class="s1">.typing{display:flex;gap:4px;align-self:flex-start;padding:12px 14px;background:#0d1d2e;border:1px solid var(--neon);border-radius:12px}</span></p>
+<p class="p1"><span class="s1">.typing span{width:7px;height:7px;background:var(--neon);border-radius:50%;animation:blink 1s infinite}</span></p>
+<p class="p1"><span class="s1">.typing span:nth-child(2){animation-delay:.2s}</span></p>
+<p class="p1"><span class="s1">.typing span:nth-child(3){animation-delay:.4s}</span></p>
+<p class="p1"><span class="s1">@keyframes blink{0%,100%{opacity:.3}50%{opacity:1}}</span></p>
+<p class="p1"><span class="s1">.scen{display:flex;flex-wrap:wrap;gap:10px;padding:16px;border-top:1px solid var(--line)}</span></p>
+<p class="p1"><span class="s1">.scen button{flex:1;min-width:200px;background:transparent;color:var(--text);border:1px solid var(--neon2);padding:12px;border-radius:10px;cursor:pointer;font-size:.9rem;transition:.2s}</span></p>
+<p class="p1"><span class="s1">.scen button:hover:not(:disabled){background:var(--neon2);color:#fff}</span></p>
+<p class="p1"><span class="s1">.scen button:disabled{opacity:.5;cursor:not-allowed}</span></p>
+<p class="p1"><span class="s1">footer{text-align:center;padding:60px 20px;border-top:1px solid var(--line);color:var(--muted)}</span></p>
+<p class="p1"><span class="s1">footer h2{margin-bottom:14px}</span></p>
+<p class="p1"><span class="s1">footer p{margin-top:28px;font-size:.9rem}</span></p>
+<p class="p1"><span class="s1">@media(max-width:760px){.grid2,.grid3{grid-template-columns:1fr}.msg{max-width:92%}}</span></p>
+<p class="p1"><span class="s1">&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;section class="hero"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="avatar"&gt;🧠&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;span class="badge"&gt;🟢 Status: Active &amp;amp; Ready 24/7&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;h1&gt;SkillPulse AI&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;p class="tagline"&gt;Karyawan digital otonom yang merancang kurikulum belajar kilat 20 jam dan memandu kamu menguasai skill baru secara terstruktur, di tengah jadwal kerja yang padat.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;a class="btn" href="https://wa.me/6281386035241" target="_blank" rel="noopener"&gt;Mulai Belajar Sekarang →&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;section&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Dari Chaos ke Terstruktur&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="grid2"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card chaos"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;h3&gt;⚠️ The Chaos&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;Waktu belajar terbatas di sela pekerjaan utama&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;Bingung memulai dari mana dan materi mana yang esensial&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;Terjebak tutorial tanpa latihan nyata&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card sol"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;h3&gt;✅ The Solution&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;Modul mikro harian 30–60 menit yang realistis&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;Roadmap otomatis: materi paling esensial lebih dulu&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;Kuis interaktif, simulasi kasus, dan progres real-time&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;section&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Core Capabilities&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="grid3"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card feat"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="ic"&gt;📅&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;h3&gt;Google Calendar&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;p&gt;Mengunci slot belajar otomatis agar konsisten tanpa mengganggu jam kerja utama.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card feat"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="ic"&gt;📝&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;h3&gt;OneNote / Google Docs&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;p&gt;Mencatat jurnal belajar harian dan merangkum action items secara rapi.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card feat"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="ic"&gt;🤝&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;h3&gt;Human-in-the-Loop&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;p&gt;Validasi berkala bersama mentor agar skill selaras dengan kebutuhan lapangan.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;section&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Simulasi Percakapan&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="sim"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="sim-head"&gt;&amp;gt; skillpulse.session --live&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="chat" id="chat"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="msg bot"&gt;Halo! Saya SkillPulse AI. Pilih skenario di bawah untuk melihat cara saya bekerja.&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="scen"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;button data-s="0"&gt;📚 Buat roadmap belajar skill baru&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;button data-s="1"&gt;🗓️ Atur jadwal belajar tanpa bentrok&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;button data-s="2"&gt;📊 Cek progres &amp;amp; evaluasi mingguan&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;footer&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Siap punya Karyawan Digital sendiri?&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;a class="btn" href="https://wa.me/6281386035241" target="_blank" rel="noopener"&gt;Hubungi via WhatsApp&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;p&gt;Built with AI · AI Builder Bootcamp Showcase&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/footer&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;script&gt;</span></p>
+<p class="p1"><span class="s1">const S = [</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>[{u:"Saya mau belajar SQL untuk analisis data, tapi cuma punya waktu sedikit. Bagaimana?"},</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>{b:"Siap! Saya susun 20 jam kurikulum kilat: 5 modul mikro 40 menit, dimulai dari SELECT, lalu JOIN, dan agregasi. Apakah kamu ingin saya kunci slot belajarnya di Google Calendar?"}],</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>[{u:"Jadwal saya sudah padat. Tolong cari slot belajar yang tidak bentrok minggu ini."},</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>{b:"Saya cek kalender kamu. Ada 3 slot kosong: Selasa 19.00–19.45, Rabu 07.00–07.45, dan Jumat 12.00–12.45. Sudah saya tandai sebagai 'Sesi Belajar SkillPulse' ✅"}],</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>[{u:"Bagaimana progres belajar saya minggu ini?"},</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>{b:"Progres kamu 68% dengan skor kuis rata-rata 82. Kelemahan utama: subquery. Saya rekomendasikan sesi ulang dan validasi bersama mentor pada checkpoint Human-in-the-Loop hari Jumat. 📈"}]</span></p>
+<p class="p1"><span class="s1">];</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">const chat = document.getElementById('chat');</span></p>
+<p class="p1"><span class="s1">const btns = document.querySelectorAll('.scen button');</span></p>
+<p class="p1"><span class="s1">const wait = ms =&gt; new Promise(r =&gt; setTimeout(r, ms));</span></p>
+<p class="p1"><span class="s1">let busy = false;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">function add(cls, text) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>const d = document.createElement('div');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>d.className = 'msg ' + cls;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>d.textContent = text;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>chat.appendChild(d);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>chat.scrollTop = chat.scrollHeight;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">function showTyping(on) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>let t = document.getElementById('typing');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>if (on &amp;&amp; !t) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>t = document.createElement('div');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>t.id = 'typing';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>t.className = 'typing';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>t.innerHTML = '&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>chat.appendChild(t);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>} else if (!on &amp;&amp; t) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>t.remove();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>chat.scrollTop = chat.scrollHeight;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">async function run(i) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>if (busy) return;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>busy = true;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>btns.forEach(b =&gt; b.disabled = true);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>const [q, a] = S[i];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>add('user', q.u);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>await wait(600);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>showTyping(true);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>await wait(1400);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>showTyping(false);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>add('bot', a.b);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>busy = false;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>btns.forEach(b =&gt; b.disabled = false);</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">btns.forEach(b =&gt; b.addEventListener('click', () =&gt; run(+b.dataset.s)));</span></p>
+<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
